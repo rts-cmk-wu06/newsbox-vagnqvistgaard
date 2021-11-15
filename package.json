@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rts-cmk-wu06/newsbox-vagnqvistgaard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rts-cmk-wu06/newsbox-vagnqvistgaard/issues"
+  },
+  "homepage": "https://github.com/rts-cmk-wu06/newsbox-vagnqvistgaard#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
