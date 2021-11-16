@@ -1,0 +1,51 @@
+{
+    "template": {
+        "section": "theater",
+        "subsection": "",
+        "title": "Review: ‘Morning’s at Seven’ Awakens Again, Only to Hit Snooze",
+        "abstract": "Paul Osborn’s 1930s play is revived, with its thin psychology, predictable structure and somewhat bitter slice of small town life intact.",
+        "url": "https://www.nytimes.com/2021/11/15/theater/mornings-at-seven-review.html",
+        "uri": "nyt://article/1cdac406-e088-5205-a2aa-2c6963288b64",
+        "byline": "By Alexis Soloski",
+        "item_type": "Article",
+        "updated_date": "2021-11-15T23:46:39-05:00",
+        "created_date": "2021-11-15T20:00:05-05:00",
+        "published_date": "2021-11-15T20:00:05-05:00",
+        "material_type_facet": "",
+        "kicker": "",
+        "des_facet": [
+            "Theater",
+            "Morning's at Seven (Play)"
+        ],
+        "org_facet": [
+            "Peccadillo Theater Co",
+            "Theater at St Clement's Church"
+        ],
+        "per_facet": [
+            "Wackerman, Dan",
+            "Crouse, Lindsay",
+            "Cuervo, Alma",
+            "Osborn, Paul",
+            "Rubinstein, John",
+            "Roberts, Tony",
+            "Mills, Alley (1951- )",
+            "Lauria, Dan",
+            "McCormack. Patty",
+            "Safran, Keri"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+            {
+                "url": "https://static01.nyt.com/images/2021/11/16/multimedia/15mornings-review/15mornings-review-superJumbo.jpg",
+                "format": "superJumbo",
+                "height": 1366,
+                "width": 2048,
+                "type": "image",
+                "subtype": "photo",
+                "caption": "Dan Lauria, left, and Alley Mills in Paul Osborn’s “Morning’s at Seven” at the Theater at St. Clement’s.",
+                "copyright": "Maria Baranova"
+            }
+        ],
+        "short_url": "https://nyti.ms/3kFCYyq"
+    }
+}

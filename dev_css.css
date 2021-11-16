@@ -1,0 +1,20 @@
+/*impromptu css for the js-building...*/
+
+body{
+    background-color:aliceblue;
+    /*margin: 0 auto;*/
+    width: 100vw;
+    
+}
+
+#_container{
+    margin: 0 auto;
+    max-width: 400px;
+
+    border: 1px lightgray solid;
+}
+
+#_card{
+    width: inherit;
+    background-color: lightsteelblue;
+}
