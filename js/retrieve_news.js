@@ -31,7 +31,7 @@ Indlæs 3 artikler for 1 kategori og 'document.create' dem i et 'mobilt' view.. 
 */
 
 let buildCategory = (jsonBite) => {
-    console.log(jsonBite.short_url);
+    //console.log(jsonBite.short_url);
     let _card = document.createElement('article');
     _card.id = '_card';
 

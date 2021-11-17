@@ -7,14 +7,41 @@ body{
     
 }
 
-#_container{
-    margin: 0 auto;
-    max-width: 400px;
-
-    border: 1px lightgray solid;
+#butt{
+    margin: 1rem 0;
 }
 
+#_container{
+    margin: 0 auto;
+    max-width: 375px;
+
+    /*border: 1px lightgray solid;*/
+}
+
+/* the card for the article previews in newsbox/news archive
 #_card{
     width: inherit;
     background-color: lightsteelblue;
+}
+*/
+
+#_box{
+    background-color: rgba(127, 255, 212, 0.281);
+    width: 5rem;
+    height: 1.5rem;
+    border: 1px rgba(211, 211, 211, 0.377) solid;
+    border-radius: 5%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+#_slider{
+    background-color: azure;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px rgba(211, 211, 211, 0.849) solid;
+    border-radius: 50%;
+
+
 }
