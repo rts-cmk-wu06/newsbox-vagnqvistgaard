@@ -1,13 +1,13 @@
 // button 'slider' for settings page... Not really a 'slider', the button just moves when clicked...
 
-//create the element:
+//create the element: //needs to go in the actual production, of course
 let _box = document.createElement('div');
 _box.id = "_box";
 
 let _slider = document.createElement('div');
 _slider.id = "_slider";
 
-document.querySelector('#_container').appendChild(_box);
+document.querySelector('#_mainWrapper').appendChild(_box);
 document.querySelector('#_box').appendChild(_slider);
 
 //make the frog button moooove, ie jump, for now.

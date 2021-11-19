@@ -1,17 +1,21 @@
 /*impromptu css for the js-building...*/
 
+:root{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 body{
     background-color:aliceblue;
     /*margin: 0 auto;*/
-    width: 100vw;
-    
+    width: 100vw;   
 }
 
 #butt{
     margin: 1rem 0;
+    font-size: 1rem;
 }
 
-#_container{
+#_mainWrapper{
     margin: 0 auto;
     max-width: 375px;
 
