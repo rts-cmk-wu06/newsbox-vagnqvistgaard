@@ -10,14 +10,28 @@ body{
     width: 100vw;   
 }
 
-#butt{
-    margin: 1rem 0;
-    font-size: 1rem;
+.Header{
+    background-color: aliceblue; /* --sec-ice */
+    width: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom: var(--sec-fossil);
+}
+
+
+.Header__archive{
+    
+}
+
+.Header__title{
+    font-weight: bolder;
 }
 
 #_mainWrapper{
     margin: 0 auto;
-    max-width: 375px;
+    width: 100vw;
 
     /*border: 1px lightgray solid;*/
 }
@@ -28,7 +42,8 @@ body{
     background-color: lightsteelblue;
 }
 */
-
+/*
+the slider from the settings page...
 #_box{
     background-color: rgba(127, 255, 212, 0.281);
     width: 5rem;
@@ -49,3 +64,4 @@ body{
 
 
 }
+*/
