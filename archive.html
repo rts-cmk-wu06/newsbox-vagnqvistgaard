@@ -5,11 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nytimes newsbox - local archive</title>
+    <link rel="stylesheet" href="dist/css/archive.css">
+    <title>nytimes newsbox - archived</title>
 </head>
 
 <body>
-    /* newsbox - local archiving */
+    <header class="Header" id="_header">
+        <a href="index.html" class="Header__back"><img src="img/angle-left.svg" width=20 height=20
+                alt="go to newsbox"></a>
+        <p class="Header__title">Archive</p>
+        <a href="" class="Header__settings"><img src="img/gear.svg" width=20 height="20" alt="go to settings"></a>
+    </header>
+
+    <main class="MainWrapper" id="_MainWrapper">
+        <!-- should/will be appended dynamically -->
+        <section class="Catbox" id="_Catbox">
+            <img src="img/newspaper-regular.svg" width="25" height="25" alt="" class="Catbox__icon" id="_Catbox__icon">
+            <p class="Catbox__text" id="_Catbox__text">ARTS</p>
+            <img src="img/nyt_arrow.svg" class="Catbox__arrow" id="_Catbox__arrow">
+        </section>
+        <article class="Article" id="_card">
+            <div class="Article__image" id="_image"></div>
+            <a href="#" class="Article__link" id="_link">
+                <h5 class="Article__H5" id="_headline">A Little Example..</h5>
+            </a>
+            <p class="Article__abstract" id="_abstract">..of an archived news-blob. And what if there is an even larger
+                pile of lingo bingo...?</p>
+
+        </article>
+
+
+    </main>
+
 
 </body>
 
