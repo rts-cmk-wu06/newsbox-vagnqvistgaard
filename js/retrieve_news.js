@@ -35,19 +35,23 @@ let buildCategory = (jsonBite) => {
     let _card = document.createElement('article');
     _card.id = '_card';
 
+    let _image = document.createElement('div');
+    _image.id = '_image';
+
     let _headline = document.createElement('h5');
     _headline.id = '_headline';
     _headline.textContent = jsonBite.title;
 
     let _link = document.createElement('a');
     _link.href = jsonBite.short_url;
-    _link.appendChild(_headline);
+    _link.appendChild(_headline);     //-----------------> remember this!!
 
     let _abstract = document.createElement('p');
     _abstract.id = '_abstract';
     _abstract.textContent = jsonBite.abstract;
 
     document.querySelector('#_container').appendChild(_card);
+    document.querySelector('#_card').appendChild(_image);
     document.querySelector('#_card').appendChild(_link);
     document.querySelector('#_card').appendChild(_abstract);
 

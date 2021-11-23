@@ -1,10 +1,12 @@
 /* scss for index page, ny times newsbox */
 /* calling for fonts: */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*colour map*/
+
 
 :root {
+    
+    /*colour map*/
     --prim-sage: #87BCBF;
     --prim-rust: #D97D54;
     --prim-drab: #324755;
@@ -14,13 +16,13 @@
     --sec-fossil: #C8D1D3;
     --sec-sand: #B9B0A2;
 
-    --typo-onyx: #1B1C20;
+    --typo-onyx: #4a4a4b;
     --typo-slate: #6E8CA0;
     --typo-snow: #FEFEFF;
-}
 
-:root{
+    /*fonts w. default color*/
     font-family: 'Nunito Sans', sans-serif;
+    color: var(--typo-onyx);
 }
 
 body{
@@ -42,7 +44,7 @@ body{
 
     .Header__title{
         font-size: 1.3rem;
-        font-weight: bolder;
+        font-weight: 900;
     }
 
     .Header__settings{
@@ -52,12 +54,85 @@ body{
     border-bottom: var(--sec-ice) 2px solid;
 }
 
-#_mainWrapper{
+
+/*------------------ teh category telltale sign ----------------------*/
+
+.MainWrapper{
     margin: 0 auto;
     width: 100vw;
-
-    /*border: 1px lightgray solid;*/
 }
+
+.Catbox{
+    width: 100vw;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: var(--sec-ice) 2px solid;
+}
+
+.Catbox .Catbox__icon{
+    margin-left: 2.3rem;
+}
+
+.Catbox .Catbox__text{
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.Catbox .Catbox__arrow{
+    margin-right: 2.3rem;
+}
+
+/*-------------- the cards --------------------*/
+
+.Article{
+    width: 100vw;
+    height: 7rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1rem);
+    
+    border-bottom: var(--sec-ice) 2px solid;
+
+       
+    .Article__image{
+        background-image: url('/../../img/randoms/251-110x110.jpg');
+        border-radius: 50%;
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-left: 1rem;
+        grid-column: 1;
+        grid-row: 2 / 7;
+    }
+
+    .Article__link{
+        grid-column: 2 / 5;
+        grid-row: 2 / 4;
+        text-decoration: none;
+        color: var(--typo-onyx);
+
+        .Article__H5{
+            grid-column: 2 / 5;
+            grid-row: 2 / 4;
+            margin: 0.3rem 1rem;
+            font-weight: 900;
+        }
+    }
+
+    .Article__abstract{
+        grid-column: 2 / 5;
+        grid-row: 3 / 6;
+        margin: 0.4rem 1rem;
+        font-weight: 200;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
 
 
 

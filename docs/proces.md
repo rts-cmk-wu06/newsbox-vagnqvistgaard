@@ -11,9 +11,11 @@
   eventListeners, event handlers, callback behaviours
 
 - create js slide func (for settings area);√
-  simple button slider on/off
+  simple button slider on/off; √
 
 - create js/css fold <-> unfold func; //ligger indtil der er noget at 'folde'...
+
+- create js/css truncating text to fit inside given space; //ligger indtil der er noget at trunkere... 
 
   ----------------------
 
