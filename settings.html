@@ -5,10 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/settings.css">
     <title>ny times news - settings</title>
 </head>
 
 <body>
+    <header class="Header" id="_header">
+        <a href="#" class="Header__back"><img src="img/angle-left.svg" width=25 height=20 alt=""></a>
+        <p class="Header__title">Settings</p><!-- set href as 'where we came from' -->
+    </header>
+    <main class="MainWrapper" id="_MainWrapper">
+        <section class="Hero" id="_Hero">
+            <p class="Hero__legend1" id="_Hero__legend1">Manage</p>
+            <p class="Hero__legend2" id="_Hero__legend2">Categories</p>
+            <span class="Hero__whiteline"> _______ </span>
+        </section>
+        <section class="Catcontainer" id="_Catcontainer">
+            <!-- build subcontainers dynamically - template below -->
+            <div class="Catcontainer__cat" id="_Catcontainer__cat">
+                <p id="_catName">RANDOM CATEGORY</p>
+                <div id="_box">
+
+                    <div id="_slider"></div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </main>
+
 
 </body>
 
