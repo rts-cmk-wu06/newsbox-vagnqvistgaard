@@ -19,13 +19,15 @@
 
   ----------------------
 
-- create visual content - index / write scss;
+- create visual content - index / write scss; √
   cards, headers, buttons
-  colours, shapes, animations, positioning
+  colours, shapes, animations, positioning // wait w. the animations...
     
-- create visual content - archive / write scss;
+- create visual content - archive / write scss; √
 
-- create visual content - settings page / write scss
+- create visual content - settings page / write scss √
+
+- start planning dynamic/static merging (js, html, json, & back)
 
   ---------------------
 - create working proto - index /

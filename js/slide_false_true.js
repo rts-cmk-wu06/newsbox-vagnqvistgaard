@@ -1,14 +1,14 @@
 // button 'slider' for settings page... Not really a 'slider', the button just moves when clicked...
 
 //create the element: //needs to go in the actual production, of course
-let _box = document.createElement('div');
-_box.id = "_box";
+let _sliderbox = document.createElement('div');
+_sliderbox.id = "_sliderbox";
 
 let _slider = document.createElement('div');
 _slider.id = "_slider";
 
-document.querySelector('#_mainWrapper').appendChild(_box);
-document.querySelector('#_box').appendChild(_slider);
+document.querySelector('#_mainWrapper').appendChild(_sliderbox);
+document.querySelector('#_sliderbox').appendChild(_slider);
 
 //make the frog button moooove, ie jump, for now.
 //doing this w. flex, justify-content 
@@ -20,12 +20,14 @@ function doSelect() {
     //console.log(_box.style.justifyContent);
     if (isSelected) {
         isSelected = false;
-        _box.style.justifyContent = 'flex-start';
+        _sliderbox.style.justifyContent = 'flex-start';
+        _sliderbox.style.backgroundColor = 'var(--sec-fossil)';
     }
     else {
         isSelected = true;
-        _box.style.justifyContent = 'flex-end';
+        _sliderbox.style.justifyContent = 'flex-end';
+        _sliderbox.style.backgroundColor = 'var(--prim-sage)';
     }
 }
 
-document.querySelector('#_box').addEventListener('click', doSelect);
+document.querySelector('#_sliderbox').addEventListener('click', doSelect);

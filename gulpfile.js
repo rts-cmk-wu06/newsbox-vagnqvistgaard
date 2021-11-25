@@ -28,7 +28,7 @@ function watchTask() {
     watch(['NEWSBOX-VAGNQVISTGAARD/scss/*.scss', '*.html'], buildStyles);
 }
 
-//exports.default = series(buildStyles, buildJavascript, watchTask);
+//exports.default = series(buildStyles, buildJavascript, watchTask); also for later....
 exports.default = series(buildStyles, watchTask);
 
 
