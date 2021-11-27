@@ -20,7 +20,12 @@
   },
   "homepage": "https://github.com/rts-cmk-wu06/newsbox-vagnqvistgaard#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.43.4"
   },

@@ -104,38 +104,33 @@ body{
 .Catcontainer{
     width: 90vw;
     margin: 2rem 5vw;
-    height: 20rem; /*aka 5 boxes */
+    height: 21rem; /*aka 5 boxes */
     background-color: var(--typo-snow);
     border-radius: 5%;
 
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(5, 4rem);
+    display: flex;
+    flex-wrap: wrap;
     justify-self: center;
+
 
     .Catcontainer__cat{
         width: 90vw;
         height: 4rem;
-        /*margin: 0 5vw;*/
         margin: 0;
 
-        grid-column: 1 / 5;
-        grid-row: 1 / 2;
-
-        /*border: 1px solid black;*/
         display: grid;
         grid-template-columns: repeat(4, 22.5vw);
         grid-template-rows: 1;
         align-items: center;
 
-        #_catName{
+        ._catName{
             margin: 0 5vw;
             font-weight: bold;
             font-size: 0.8rem;
             grid-column: 1 / 4;
         }
 
-        #_sliderbox{
+        ._sliderbox{
             background-color: var(--sec-fossillight);
             margin: 0;
             grid-column: 4 / 5;
@@ -146,7 +141,7 @@ body{
             display: flex;
             justify-content: flex-start;
 
-            #_slider{
+            ._slider{
                 background-color: var(--sec-fossil);
                 margin: 0;
                 width: 1.5rem;
@@ -155,6 +150,6 @@ body{
                 /* changes here will be made through js...*/
             }
         }
-        border-bottom: var(--sec-ice) 2px solid;
+       border-bottom: var(--sec-ice) 2px solid; 
     }
 }

@@ -1,11 +1,12 @@
 - ABOUT MERGING & HANDLING DATA
 
 - FIRST STEP:
+    - needs to be able to truncate text first...
     - call from js on index for data from NYT api;
     - retrieve data from NYT api;
     - populate content containers on index w. data
         - (questions here: Bulk populate & keep data invisible until activation via click on their category?);
-        - (or: Populate as needed, ie on demand?);
+        - (or: Populate as needed, ie on demand?... For now, we go with this...);
 
 
 - SECOND STEP:

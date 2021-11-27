@@ -3,17 +3,17 @@
 const { src, dest, watch, series } = require('gulp')
 const sass = require('gulp-sass')(require('sass'))
 const gulp = require("gulp");
-//const babel = require("gulp-babel");
+const babel = require("gulp-babel");
 /*const purgecss = require('gulp-purgecss')*/
 
 // js later. alligator...
-//function buildJavascript() {
-//  return src("js/**/*.js")    
-//        .pipe(babel({
-//            presets: ["@babel/preset-env"]
-//        }))
-//        .pipe(dest("dist"));
-//}
+function buildJavascript() {
+    return src("js/**/*.js")
+        .pipe(babel({
+            presets: ["@babel/env"]       //["@babel/preset-env"]
+        }))
+        .pipe(dest("dist/js"));
+}
 
 
 function buildStyles() {                //fra scss til css
@@ -24,12 +24,12 @@ function buildStyles() {                //fra scss til css
 }
 
 function watchTask() {
-    //watch(['API-sandbox/scss/*.scss', 'js/**/*js', '*.html'], series(buildStyles, buildJavascript)); this later,  potater
-    watch(['NEWSBOX-VAGNQVISTGAARD/scss/*.scss', '*.html'], buildStyles);
+    watch(['API-sandbox/scss/*.scss', 'js/**/*js', '*.html'], series(buildStyles, buildJavascript)); //this later,  potater
+    //watch(['NEWSBOX-VAGNQVISTGAARD/scss/*.scss', '*.html'], buildStyles);
 }
 
-//exports.default = series(buildStyles, buildJavascript, watchTask); also for later....
-exports.default = series(buildStyles, watchTask);
+exports.default = series(buildStyles, buildJavascript, watchTask); //also for later....
+//exports.default = series(buildStyles, watchTask);
 
 
 
